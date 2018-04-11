@@ -4,17 +4,25 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import ImageViewer from './ImageViewer/imageViewer.component';
-import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
+import { UserComponent } from './user/user.component';
+import { DirectivespracComponent } from './directivesprac/directivesprac.component';
+import { AppviewComponent } from './appview/appview.component';
+import {RootviewComponent} from './rootview/rootview.component';
+import { HeaderviewComponent } from './headerview/headerview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ImageViewer,
-    ServersComponent,
     WarningAlertComponent,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    UserComponent,
+    DirectivespracComponent,
+    AppviewComponent,
+    RootviewComponent,
+    HeaderviewComponent
   ],
   imports: [
     BrowserModule,
